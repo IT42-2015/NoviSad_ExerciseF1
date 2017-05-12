@@ -28,5 +28,25 @@ public class TestBowling {
 		
 		assertEquals("Greska",true,provera);
 	}
+	
+	@Test (expected = BowlingException.class)
+		public void test_addFrame() throws BowlingException{
+			BowlingGame igra = new BowlingGame();
+			
+			igra.addFrame(new Frame(4,3));
+			igra.addFrame(new Frame(4,3));
+			igra.addFrame(new Frame(10,0));
+			igra.addFrame(new Frame(4,3));
+			igra.addFrame(new Frame(4,3));
+			igra.addFrame(new Frame(0,3));
+			igra.addFrame(new Frame(4,3));
+			igra.addFrame(new Frame(4,3));
+			igra.addFrame(new Frame(4,5));
+			igra.addFrame(new Frame(2,3));
+			igra.addFrame(new Frame(4,3));
+			igra.addFrame(new Frame(4,3));
+					
+		}
+	}
 
-}
+
