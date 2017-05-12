@@ -60,7 +60,7 @@ public class TestBowling {
 			igra.addFrame(new Frame(4,5));
 			igra.addFrame(new Frame(2,3));
 			igra.addFrame(new Frame(4,3));
-			igra.addFrame(new Frame(4,3));
+			
 					
 		}
 	}
