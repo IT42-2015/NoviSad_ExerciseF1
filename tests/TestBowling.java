@@ -22,6 +22,14 @@ public class TestBowling {
 	}
 	
 	@Test
+	public void test_isNotStrike(){
+		Frame fr = new Frame(4,2);
+		boolean provera = fr.isStrike();
+		
+		assertEquals("Greska",false,provera);
+	}
+	
+	@Test
 	public void test_isSpare(){
 		Frame fr = new Frame(8,2);
 		boolean provera = fr.isSpare();
@@ -43,8 +51,7 @@ public class TestBowling {
 			igra.addFrame(new Frame(4,3));
 			igra.addFrame(new Frame(4,5));
 			igra.addFrame(new Frame(2,3));
-			igra.addFrame(new Frame(4,3));
-			
+			igra.addFrame(new Frame(4,3));		
 					
 		}
 	}
