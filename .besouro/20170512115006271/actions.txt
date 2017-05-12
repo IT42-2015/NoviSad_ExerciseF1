@@ -1,0 +1,7 @@
+FileOpenedAction 1494582606721 Frame.java 671 6 7 0
+RefactoringAction 1494583059108 TestBowling.java RENAME test()=>void test_s() METHOD
+RefactoringAction 1494583060621 TestBowling.java RENAME test_s()=>void test_score() METHOD
+RefactoringAction 1494583160794 TestBowling.java RENAME test_score()=>void test_scoe() METHOD
+RefactoringAction 1494583163309 TestBowling.java RENAME test_scoe()=>void tes() METHOD
+RefactoringAction 1494583164320 TestBowling.java RENAME tes()=>void test() METHOD
+EditAction 1494583390791 Frame.java 745 6 8 0
