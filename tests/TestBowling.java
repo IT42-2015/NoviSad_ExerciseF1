@@ -11,5 +11,13 @@ public class TestBowling {
 		
 		assertEquals("Greska",true,provera);			
 	}
+	
+	@Test
+	public void test_isSpare(){
+		Frame fr = new Frame(8,2);
+		boolean provera = fr.isSpare();
+		
+		assertEquals("Greska",true,provera);
+	}
 
 }
