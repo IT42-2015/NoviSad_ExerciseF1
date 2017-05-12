@@ -5,3 +5,4 @@ RefactoringAction 1494583160794 TestBowling.java RENAME test_score()=>void test_
 RefactoringAction 1494583163309 TestBowling.java RENAME test_scoe()=>void tes() METHOD
 RefactoringAction 1494583164320 TestBowling.java RENAME tes()=>void test() METHOD
 EditAction 1494583390791 Frame.java 745 6 8 0
+EditAction 1494583399799 TestBowling.java 145 1 0 0

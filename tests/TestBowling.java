@@ -6,7 +6,9 @@ public class TestBowling {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		
+		
+		
 	}
 
 }
