@@ -37,6 +37,14 @@ public class TestBowling {
 		assertEquals("Greska",true,provera);
 	}
 	
+	@Test
+	public void test_isNotSpare(){
+		Frame fr = new Frame(5,2);
+		boolean provera = fr.isSpare();
+		
+		assertEquals("Greska",false,provera);
+	}
+	
 	@Test (expected = BowlingException.class)
 		public void test_addFrame() throws BowlingException{
 			BowlingGame igra = new BowlingGame();
