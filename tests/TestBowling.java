@@ -3,6 +3,15 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class TestBowling {
+	
+	
+	@Test
+	public void test_score(){
+		Frame fr = new Frame(1,6);
+		int provera = fr.score();
+		
+		assertEquals("Greska",7,provera);
+	}
 
 	@Test
 	public void test_isStrike() {
