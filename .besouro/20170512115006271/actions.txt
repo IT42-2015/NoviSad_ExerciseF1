@@ -9,3 +9,9 @@ EditAction 1494583399799 TestBowling.java 145 1 0 0
 RefactoringAction 1494583417043 TestBowling.java RENAME test()=>void test_isStrik() METHOD
 RefactoringAction 1494583418054 TestBowling.java RENAME test_isStrik()=>void test_isStrike() METHOD
 EditAction 1494583533967 TestBowling.java 256 1 3 1
+UnitTestCaseAction 1494583543545 TestBowling.java OK
+UnitTestSessionAction 1494583543548 TestBowling.java OK
+RefactoringAction 1494583712588 TestBowling.java ADD void test FIELD
+RefactoringAction 1494583716100 TestBowling.java RENAME test=>void test_is FIELD
+RefactoringAction 1494583718111 TestBowling.java RENAME test_is=>void test_isSpare() METHOD
+EditAction 1494583773774 Frame.java 839 6 8 0
