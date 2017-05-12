@@ -33,3 +33,6 @@ RefactoringAction 1494584476510 TestBowling.java RENAME test_addframe()=>void te
 EditAction 1494584638578 BowlingGame.java 811 4 2 0
 EditAction 1494584647248 TestBowling.java 1142 4 22 3
 EditAction 1494584658207 BowlingException.java 104 1 1 0
+UnitTestCaseAction 1494584669815 TestBowling.java OK
+UnitTestSessionAction 1494584669817 TestBowling.java OK
+EditAction 1494584751906 TestBowling.java 1144 4 21 3
