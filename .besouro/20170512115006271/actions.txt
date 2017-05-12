@@ -20,3 +20,14 @@ UnitTestCaseAction 1494583794965 TestBowling.java OK
 UnitTestSessionAction 1494583794966 TestBowling.java OK
 RefactoringAction 1494583887478 TestBowling.java ADD void test_score() METHOD
 EditAction 1494583961980 TestBowling.java 556 3 9 3
+UnitTestCaseAction 1494583973307 TestBowling.java OK
+UnitTestSessionAction 1494583973310 TestBowling.java OK
+RefactoringAction 1494584100905 BowlingException.java ADD String ex FIELD
+RefactoringAction 1494584102915 BowlingException.java RENAME ex=>String ex() METHOD
+RefactoringAction 1494584310657 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1494584321173 TestBowling.java RENAME test_=>void test_Exception FIELD
+RefactoringAction 1494584322683 TestBowling.java RENAME test_Exception=>void test_Exception() METHOD
+RefactoringAction 1494584471477 TestBowling.java RENAME test_Exception()=>void test_add() METHOD
+RefactoringAction 1494584472990 TestBowling.java RENAME test_add()=>void test_addframe() METHOD
+RefactoringAction 1494584476510 TestBowling.java RENAME test_addframe()=>void test_addFrame() METHOD
+EditAction 1494584638578 BowlingGame.java 811 4 2 0
